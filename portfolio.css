@@ -1,0 +1,47 @@
+body {
+  background-color: #8e392d;
+}
+
+h1{
+  color: #996a29;
+}
+
+h2 {
+  color: #996a29;
+  font-size: 150%;
+}
+
+p {
+  font-size: 120%;
+}
+
+nav ul{
+  list-style-type: none; /*Say what procedes list, bullet pts, roman numerals, etc.*/
+  margin: 0; /*Clears area outside border*/
+  padding: 0; /*Clears area inside border*/
+  overflow: hidden; /*If content inside box (UL) goes outside of UL, says what to do with it.*/
+  background-color: #1a0d00; /*Is redish black*/
+}
+
+nav li {
+  float: left;
+
+}
+
+nav li a {
+  display: block /* No idea why this is is in li a instead of li, prob to match the li?*/
+  color: white;
+  text-align: center;
+  text-decoration: none; /* Take away underlining of links*/
+  padding: 14px 16px;
+}
+
+nav li:hover {
+  background-color: #fff2e6;
+}
+.active:hover {
+    background-color: #fff2e6;
+}
+.active {
+  background-color: #cc0000
+}
