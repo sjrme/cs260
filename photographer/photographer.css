@@ -1,0 +1,170 @@
+body {
+  background-image: url(mintimages/mbandoch_alberta.jpg);
+  background-size: cover;
+  z-index: -1;
+}
+
+nav {
+}
+
+
+nav ul {
+  opacity: 0.90;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a88b72;
+}
+
+nav li  {
+  float: left;
+  width: 20%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+nav li a {
+  font-family: "type";
+  display: block;
+  height:100%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  z-index: 0;
+  display: block;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.25;
+}
+
+footer:hover {
+  opacity: 1.0;
+}
+.title {
+
+  border-radius: 20px 20px 0px 0px;
+  text-align: center;
+  background-color: #edbb89;
+  opacity: 0.5;
+}
+.name {
+  position: relative;
+  top: 5px;
+  font-family: "Times New Roman";
+
+}
+.photography{
+  position: relative;
+  bottom: 5px;
+  font-family: "Times New Roman";
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  z-index: 1;
+}
+
+
+nav li:hover{
+  background-color: #a00303
+}
+
+.current {
+  background-color: #d89300;
+}
+
+.current:hover {
+  background-color: #d85d00;
+}
+
+#Me{
+  position: relative;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+  max-height: 30%;
+}
+input {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+textarea{
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+  text-align: center;
+}
+button{
+  padding: 10px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@font-face {
+  font-family: "type";
+  src: url(1942.ttf);
+}
+
+article {
+  border-radius: 10px;
+  text-align: justify;
+  margin: 0 auto;
+  background-color: #edbb89;
+  opacity: 0.5;
+  align: center;
+}
+
+#grid {
+  padding: 8px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+}
+form {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.review{
+  text-align: right;
+}
+blockquote{
+  font-family: "Helvetica";
+  border-radius: 10px;
+  text-align: justify;
+
+  margin: 20px auto;
+  padding: 10px;
+  width: 30%;
+  background-color: #edbb89;
+  opacity: 0.75;
+  align: center;
+}
+
+.portfolio {
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align: center;
+  display:block;
+  max-width: 80%;
+}
